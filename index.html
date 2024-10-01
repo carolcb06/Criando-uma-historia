@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da cidade perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="">
+            <p>Você está explorando uma floresta misteriosa em busca de um antigo artefato. Após um alonga caminhada você se depara com duas trilhas que seguem duas direções opostas!</p>
+            <button class="btn-proximo" data-proximo="1">Trilha da direita</button>
+            <button class="btn-proximo" data-proximo="2">Trilha da esquerda</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você avança por um caminho rodeado de árvores e vista uma caverna com uma luz fraca vindo de dentro.</p>
+            <button class="btn-proximo" data-proximo="3">Explorar a caverna</button>
+            <button class="btn-proximo" data-proximo="4">Dessistir e voltar.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O caminho é estreito e parece ser menos explorado. depois de um tempo caminhando, você encontra uma pequena cabana.</p>
+            <button class="btn-proximo" data-proximo="5">Entra na cabana</button>
+            <button class="btn-proximo" data-proximo="6">Continuar</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro, você encontra uma fonte de água cristalina com báu ao lado.</p>
+            <button class="btn-proximo" data-proximo="7">Abir o báu</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você acha muito perigoso continuar e resolve voltar.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Lá você encontra  uma mesa com um mapa antigo.</p>
+            <button class="btn-proximo" data-proximo="8">Pegar o mapa, e segui-lo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você caminha por um bom tempo, e não chega a lugar nenhum.</p>
+
+        <div class="passo" id="passo-7">
+            <img src="img/abra-um-bau-de-tesouro-antigo-que-irradiava-luz-na-escuridao_44622-1068.avif" alt="báu">
+            <p>Ao abri o báu , vovê encontra o artefato que procurava. Assim completando sua missaão.</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>O mapa te leva a um báu, ao abri você encontra o que tanto procurava.</p>
+            <button class="btn-proximo" data-proximo="9">FIM</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Parabéns você chegou ao fim dessa missão!!</p>
+    
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
